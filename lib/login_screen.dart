@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-class LoginScreen extends StatelessWidget {
- 
 
-   LoginScreen({super.key, this.navigation});
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({super.key, this.navigation});
 
   final dynamic navigation;
-  final userNameController = TextEditingController();
-  final passwordController = TextEditingController();
+
   void _onBtnSignInPressed() {
     navigation.pushNamed('PatientList');
   }
 
   @override
   Widget build(BuildContext context) {
+    var userNameController;
+    var passwordController;
     return Scaffold(
       body: Container(
         padding: EdgeInsets.all(16.0),
@@ -60,7 +60,7 @@ class LoginScreen extends StatelessWidget {
                 controller: userNameController,
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
-                    hintText: 'Enter the total hours'),
+                    hintText: 'Enter the username'),
               ),
             ),
             Padding(
@@ -69,7 +69,7 @@ class LoginScreen extends StatelessWidget {
                 controller: passwordController,
                 decoration: const InputDecoration(
                   border: UnderlineInputBorder(),
-                  labelText: 'Enter the hourly wage',
+                  labelText: 'Enter the password',
                 ),
 
                 // onChanged: valueSetter,

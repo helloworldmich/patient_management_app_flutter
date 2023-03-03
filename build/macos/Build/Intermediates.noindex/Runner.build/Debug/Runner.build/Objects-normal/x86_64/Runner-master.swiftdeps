@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "93b3091ca3f1bdd9d02f9a11fcaa35e3b466ecd6753fbe3d99655d0710cd16f4"
+build_start_time: [1677861729, 23836135]
+build_end_time: [1677861743, 440871000]
+inputs:
+  ? "/Users/mich/Documents/MAPD-centennial/2nd term/4 flutter 722/milestone 2/patient_management_app_flutter/macos/Flutter/GeneratedPluginRegistrant.swift"
+  : [1677861720, 948923110]
+  ? "/Users/mich/Documents/MAPD-centennial/2nd term/4 flutter 722/milestone 2/patient_management_app_flutter/macos/Runner/AppDelegate.swift"
+  : [1671141058, 0]
+  ? "/Users/mich/Documents/MAPD-centennial/2nd term/4 flutter 722/milestone 2/patient_management_app_flutter/macos/Runner/MainFlutterWindow.swift"
+  : [1671141058, 0]
